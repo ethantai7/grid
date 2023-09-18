@@ -1,0 +1,49 @@
+/** Let's style our h1 & h2 headings **/
+
+
+
+
+
+h1, h2{
+  margin: 10px;
+  font-size: 200%;
+  text-align: center;
+
+}
+
+/** styling the grid object type **/
+
+.grid {
+  width: 800px;
+  display: grid;
+  background-image: url("../images/background.jpg");
+  border: 3px solid black;
+  border-radius: 10px;
+    justify-content: space-around;
+  margin: auto;
+
+  grid-template-columns: 25% 25% 25%;
+  grid-gap: 10px;
+  background-color: #91f321;
+
+}
+
+
+
+
+
+.grid div {
+    border: 5px solid white;
+    padding: 20px;
+    font-size: 30px;
+    background-color: rgba(231, 157, 224, 0.5);
+    text-align: center;
+
+}
+
+
+
+
+.item2{
+    grid-column-start: 3;
+}
